@@ -1,0 +1,195 @@
+﻿  nrbbr3d Engine V2.cpp
+D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10): error C2679: Binärer Operator "<<": Es konnte kein Operator gefunden werden, der einen rechtsseitigen Operanden vom Typ "window_stuff" akzeptiert (oder keine geeignete Konvertierung möglich)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  kann "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)" sein
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)" : Konvertierung von Argument 2 von "window_stuff" in "std::basic_streambuf<char,std::char_traits<char>> *" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)" : Konvertierung von Argument 2 von "window_stuff" in "const void *" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)" : Konvertierung von Argument 2 von "window_stuff" in "long double" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)" : Konvertierung von Argument 2 von "window_stuff" in "double" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)" : Konvertierung von Argument 2 von "window_stuff" in "float" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)" : Konvertierung von Argument 2 von "window_stuff" in "unsigned __int64" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)" : Konvertierung von Argument 2 von "window_stuff" in "__int64" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)" : Konvertierung von Argument 2 von "window_stuff" in "unsigned long" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)" : Konvertierung von Argument 2 von "window_stuff" in "long" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)" : Konvertierung von Argument 2 von "window_stuff" in "unsigned int" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)" : Konvertierung von Argument 2 von "window_stuff" in "int" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)" : Konvertierung von Argument 2 von "window_stuff" in "unsigned short" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)" : Konvertierung von Argument 2 von "window_stuff" in "short" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)" : Konvertierung von Argument 2 von "window_stuff" in "bool" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))" : Konvertierung von Argument 2 von "window_stuff" in "std::ios_base &(__cdecl *)(std::ios_base &)" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))" : Konvertierung von Argument 2 von "window_stuff" in "std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  oder "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	"std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))" : Konvertierung von Argument 2 von "window_stuff" in "std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(5228,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)“: Das Vorlage-Argument für „const std::basic_string<_Elem,_Traits,_Alloc> &“ konnte nicht von „window_stuff“ abgeleitet werden.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(1946,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)“: Das Vorlage-Argument für „const std::shared_ptr<_Ty> &“ konnte nicht von „window_stuff“ abgeleitet werden.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(3598,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)“: Das Vorlage-Argument für „const std::unique_ptr<_Ty2,_Dx2> &“ konnte nicht von „window_stuff“ abgeleitet werden.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "const char *" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "char" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "const char *" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "char" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(849,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)“: Das Vorlage-Argument für „const _Elem *“ konnte nicht von „window_stuff“ abgeleitet werden.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(892,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)“: Vorlage-Parameter „_Elem“ ist mehrdeutig.
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  		kann "window_stuff" sein
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  		oder "char"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)“: Das Vorlage-Argument für „_Elem“ konnte nicht von „window_stuff“ abgeleitet werden.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "const signed char *" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "signed char" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "const unsigned char *" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  oder "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "unsigned char" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1003,9):
+  oder "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  	„_Ostr &&std::operator <<(_Ostr &&,const _Ty &)“: Das Vorlage-Argument für „__formal“ konnte nicht abgeleitet werden.
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1002,103):
+  		"<template-parameter>": Sie können keinen Zeiger auf einen Verweis erstellen.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  oder "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+  	D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  	"Initialisierung": "window_stuff" kann nicht in "const std::error_code &" konvertiert werden
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Ursache: Konvertierung von "window_stuff" in "const std::error_code" nicht möglich
+  		D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,18):
+  		Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+  D:\DEV\nrbbr3d Engine V2\nrbbr3d Engine V2\nrbbr3d Engine V2.cpp(13,10):
+  bei Anpassung der Argumentliste "(std::ostream, window_stuff)"
+  
