@@ -4,6 +4,7 @@
 class window_stuff
 {
 public:
-	int MakeMessageBox(LPCWSTR ueberschrift, LPCWSTR text);
+	bool MakeMessageBox(LPCWSTR ueberschrift, LPCWSTR text);
+
 };
 
