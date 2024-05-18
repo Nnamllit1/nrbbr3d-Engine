@@ -1,0 +1,3 @@
+﻿  nrbbr3d Engine V2 Tools.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "main" in Funktion ""int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)".
+D:\DEV\nrbbr3d Engine V2\x64\Debug\nrbbr3d Engine V2 Tools.exe : fatal error LNK1120: 1 nicht aufgelöste Externe

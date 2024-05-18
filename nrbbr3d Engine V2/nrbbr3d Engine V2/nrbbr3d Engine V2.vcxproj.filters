@@ -13,8 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Quelldateien\widows stuff">
+    <Filter Include="Quelldateien\engine">
+      <UniqueIdentifier>{a89114ee-cfdc-48ab-bf8b-4a4bfe78be55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\engine\widows stuff">
       <UniqueIdentifier>{9cf4031a-0ce4-4517-bfb8-73414d68f797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\engine\log">
+      <UniqueIdentifier>{09950136-e7e4-42fa-bbd7-40670099d806}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -22,12 +28,21 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="window_stuff.cpp">
-      <Filter>Quelldateien\widows stuff</Filter>
+      <Filter>Quelldateien\engine\widows stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Quelldateien\engine\log</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window_stuff.h">
-      <Filter>Headerdateien</Filter>
+      <Filter>Quelldateien\engine\widows stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Quelldateien\engine\log</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
